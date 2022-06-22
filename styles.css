@@ -1,0 +1,64 @@
+body {
+    margin: 00;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(76, 22, 101);
+    background-color: #3ff57c;
+  }
+  
+  code {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .app {
+    background: rgb(38, 147, 180);
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .todo-list {
+    background: #ce8cf5;
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 500px;
+  }   
+  
+  .todo {
+    background: rgba(252, 252, 252, 0.671);
+    box-shadow: 1px 1px 1px rgb(41, 33, 83);
+    padding: 5px 10px;
+    font-size: 24px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .todo:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  
+  .input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 1rem;
+    height: 2.25em;
+    font-size: 24px;
+  }
+  .input{
+    background: rgba(253, 245, 230, 0.782);
+    color: #100761;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 1rem;
+    height: 2.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
